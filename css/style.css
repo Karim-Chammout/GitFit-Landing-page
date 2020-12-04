@@ -41,6 +41,33 @@ body {
   }
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-section .card-img-overlay {
+    margin-top: 0 !important;
+  }
+  .hero-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-section .card-img-overlay {
+    margin-top: 0 !important;
+  }
+  .hero-section h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-section .card-img-overlay {
+    margin-top: 0 !important;
+  }
+  .hero-section h1 {
+    font-size: 50px;
+  }
+}
+
 .about-us {
   background-color: #000b16;
 }
