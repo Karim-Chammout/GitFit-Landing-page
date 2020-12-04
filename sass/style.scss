@@ -1,0 +1,189 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+// -------------------- Start Main Navbar --------------------
+
+.main-navbar {
+  background-color: $black-color;
+  .navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    span {
+      color: $button-color;
+    }
+  }
+}
+
+// -------------------- End Main Navbar --------------------
+
+// -------------------- Strat Hero Section --------------------
+
+.hero-section {
+  h1 {
+    font-size: 75px;
+  }
+  
+  .card {
+    border: unset;
+    border-radius: unset;
+  }
+  .card-img {
+    border-radius: unset;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    .card-img-overlay {
+      margin-top: 0 !important;
+    }
+    .sm-no-mr {
+      margin-top: 0 !important;
+    }
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+
+// @media (max-width: 767.98px) {
+
+// }
+
+// @media (max-width: 991.98px) {
+
+// }
+
+// @media (max-width: 1199.98px) {
+
+// }
+
+// -------------------- End Hero Section --------------------
+
+// -------------------- Start About Us --------------------
+
+.about-us {
+  background-color: $primary-color;
+
+  ul {
+    li {
+      margin-top: 10px;
+      &::before {
+        content: ">";
+        background-color: $button-color;
+        padding: 0 5px;
+        color: $black-color;
+        font-weight: 600;
+        border-radius: 50%;
+        line-height: 16px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+// -------------------- End About Us --------------------
+
+// -------------------- Start Steps --------------------
+
+.steps {
+  background-color: $secondary-color;
+}
+
+// -------------------- End Steps --------------------
+
+// -------------------- End Steps --------------------
+
+.courses {
+  background-color: $primary-color;
+
+  h2 {
+    color: $button-color;
+  }
+
+  .card {
+    border: unset;
+    background-color: transparent;
+  }
+
+  .card-link {
+    color: $button-color;
+  }
+}
+
+// -------------------- End Steps --------------------
+
+// -------------------- Start Videos --------------------
+
+.videos {
+  background-color: $secondary-color;
+
+}
+
+// -------------------- End Videos --------------------
+
+// -------------------- End Videos --------------------
+
+.blogs {
+  background-color: $primary-color;
+
+  .card {
+    border: unset;
+    background-color: transparent;
+  }
+
+  .card-link {
+    color: $text-color;
+    &::after {
+      content: "->";
+      margin-left: 5px;
+      font-weight: bold;
+    }
+  }
+}
+
+// -------------------- End Videos --------------------
+
+// -------------------- Start Footer --------------------
+
+.footer {
+  background-color: $secondary-color;
+
+  span {
+    color: $button-color;
+  }
+
+  .li-margin-right {
+    li {
+      margin-right: 15px;
+    }
+  }
+  .li-margin-top {
+    li {
+    margin-top: 10px;
+    }
+  }
+}
+
+// -------------------- End Footer --------------------
+
+// -------------------- Start Button --------------------
+
+.btn-pink {
+  color: #fff;
+  background-color: $button-color !important;
+  border-color: $button-color !important;
+}
+
+.btn-pink:hover,
+.btn-pink:active,
+.btn-pink:focus {
+  background-color: #ce0037 !important;
+  border-color: #ce0037 !important;
+}
+
+// -------------------- End Button --------------------
